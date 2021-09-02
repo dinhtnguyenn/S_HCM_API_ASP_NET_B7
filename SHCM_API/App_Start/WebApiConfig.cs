@@ -46,7 +46,7 @@ namespace SHCM_API
 
             config.Routes.MapHttpRoute(
                 name: "GetDetails",
-                routeTemplate: "api/details/{id}",
+                routeTemplate: "api/details",
                 defaults: new { controller = "Accounts", action = "GetDetails" }
             );
 
